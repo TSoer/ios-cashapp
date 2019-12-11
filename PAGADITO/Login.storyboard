@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="4sV-El-Fwp">
+            <objects>
+                <viewController id="bSr-Em-TL9" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ime-Yp-Mkb">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="PagaditoR_0001_fondo.png" translatesAutoresizingMaskIntoConstraints="NO" id="NhJ-4t-9J1">
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="PagaditoR_0000_Layer-17.png" translatesAutoresizingMaskIntoConstraints="NO" id="32x-f8-NHe">
+                                <rect key="frame" x="91" y="0.0" width="192" height="128"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="Pagadito_0001s_0007_Layer-26-copy.png" translatesAutoresizingMaskIntoConstraints="NO" id="vbc-eO-lVy">
+                                <rect key="frame" x="43" y="103" width="289" height="259"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F3s-Ii-DRu">
+                                <rect key="frame" x="78" y="387" width="219" height="28"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Configuración Inicial">
+                                        <attributes>
+                                            <color key="NSBackgroundColor" white="1" alpha="0.0" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                            <color key="NSColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                            <font key="NSFont" size="24" name="Roboto-Black"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Gn-ji-oqi">
+                                <rect key="frame" x="30" y="459" width="259.5" height="28"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Inicia sesión con tu cuenta Pagadito">
+                                        <attributes>
+                                            <color key="NSBackgroundColor" white="1" alpha="0.0" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                            <color key="NSColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                            <font key="NSFont" size="16" name="Roboto-Black"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SWa-e6-VWZ">
+                                <rect key="frame" x="111" y="417" width="153" height="28"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Pagadito POS">
+                                        <attributes>
+                                            <color key="NSBackgroundColor" white="1" alpha="0.0" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                            <color key="NSColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                            <font key="NSFont" size="24" name="Roboto-Black"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" usesAttributedText="YES" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="83V-2d-Ypx">
+                                <rect key="frame" x="30" y="489" width="315" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="rzF-EI-aBp"/>
+                                </constraints>
+                                <attributedString key="attributedText">
+                                    <fragment content="Usuario">
+                                        <attributes>
+                                            <color key="NSColor" red="0.45120161802030456" green="0.45120161802030456" blue="0.45120161802030456" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <font key="NSFont" size="16" name="Roboto-Regular"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <textInputTraits key="textInputTraits" textContentType="nickname"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" usesAttributedText="YES" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="GYh-pz-ZPZ">
+                                <rect key="frame" x="30" y="528" width="315" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="mqo-6z-3MV"/>
+                                </constraints>
+                                <attributedString key="attributedText">
+                                    <fragment content="Contraseña">
+                                        <attributes>
+                                            <color key="NSColor" red="0.45120161802030456" green="0.45120161802030456" blue="0.45120161802030456" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <font key="NSFont" size="16" name="Roboto-Regular"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <textInputTraits key="textInputTraits" textContentType="nickname"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3jQ-vu-KMo">
+                                <rect key="frame" x="54.5" y="577" width="267" height="44"/>
+                                <state key="normal" image="Pagadito_0001s_0003_Iniciar-sesión--.png">
+                                    <attributedString key="attributedTitle"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eZg-Rb-NZb">
+                                <rect key="frame" x="115" y="629" width="145" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Olvidé mi contraseña">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="0Gn-ji-oqi" firstAttribute="leading" secondItem="EtC-w6-iLr" secondAttribute="leading" constant="30" id="FnN-bY-9gs"/>
+                            <constraint firstItem="32x-f8-NHe" firstAttribute="centerX" secondItem="Ime-Yp-Mkb" secondAttribute="centerX" id="IET-mY-bQY"/>
+                            <constraint firstItem="3jQ-vu-KMo" firstAttribute="centerX" secondItem="Ime-Yp-Mkb" secondAttribute="centerX" id="Svy-2g-rJG"/>
+                            <constraint firstItem="SWa-e6-VWZ" firstAttribute="centerX" secondItem="Ime-Yp-Mkb" secondAttribute="centerX" id="X9Z-oz-T0M"/>
+                            <constraint firstItem="0Gn-ji-oqi" firstAttribute="leading" secondItem="EtC-w6-iLr" secondAttribute="leading" constant="30" id="YLt-1Z-Iuj"/>
+                            <constraint firstItem="F3s-Ii-DRu" firstAttribute="centerX" secondItem="Ime-Yp-Mkb" secondAttribute="centerX" id="svl-uk-PFg"/>
+                            <constraint firstItem="vbc-eO-lVy" firstAttribute="centerX" secondItem="Ime-Yp-Mkb" secondAttribute="centerX" id="tKW-9o-dRh"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="EtC-w6-iLr"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="D1z-wl-xUi" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-74.400000000000006" y="-25.637181409295355"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="PagaditoR_0000_Layer-17.png" width="192" height="38"/>
+        <image name="PagaditoR_0001_fondo.png" width="360" height="640"/>
+        <image name="Pagadito_0001s_0003_Iniciar-sesión--.png" width="267" height="44"/>
+        <image name="Pagadito_0001s_0007_Layer-26-copy.png" width="289" height="225"/>
+    </resources>
+</document>
